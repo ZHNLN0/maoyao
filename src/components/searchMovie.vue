@@ -45,7 +45,7 @@ export default {
     },
     _queryMovie() {
       const params = {
-        key: '939b0b0f4edc4af863e8666a3d60949c',
+        key: 'e1feeeceb6a85d644d666e8b0948727a',
         smode: 0,
         title: this.queryMovie
       }

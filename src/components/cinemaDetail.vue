@@ -371,7 +371,7 @@ export default {
 		_getCinemaPlay() {
 			const cinemaId = this.currentCinema.id ? parseInt(this.currentCinema.id) : parseInt(this.currentCinema.cinemaId)
 			const params = {
-				key: '939b0b0f4edc4af863e8666a3d60949c',
+				key: 'e1feeeceb6a85d644d666e8b0948727a',
 				cinemaid: cinemaId
 			}
 			api.cinemaPlay(params)

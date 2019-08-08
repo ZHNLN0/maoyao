@@ -55,7 +55,7 @@ export default {
     _getMovieDetail() {
       const movieId = this.currentMovie.movieId ? parseInt(this.currentMovie.movieId) : parseInt(this.currentMovie.movieid)
       const params = {
-        key: '939b0b0f4edc4af863e8666a3d60949c',
+        key: 'e1feeeceb6a85d644d666e8b0948727a',
         movieid: movieId
       }
       api.movieDetail(params)
@@ -68,7 +68,7 @@ export default {
       const movieId = this.currentMovie.movieId ? parseInt(this.currentMovie.movieId) : parseInt(this.currentMovie.movieid)
       const cityId = this.currentCity.id
       const params = {
-        key: '939b0b0f4edc4af863e8666a3d60949c',
+        key: 'e1feeeceb6a85d644d666e8b0948727a',
         movieid: movieId,
         cityid: cityId
       }

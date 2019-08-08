@@ -41,7 +41,7 @@ export default {
   methods: {
     _getAroundCinema () {
       const params = {
-        key: '939b0b0f4edc4af863e8666a3d60949c',
+        key: 'e1feeeceb6a85d644d666e8b0948727a',
         lat: this.location.location.lat.toString(),
         lon: this.location.location.lng.toString(),
         radius: 3000

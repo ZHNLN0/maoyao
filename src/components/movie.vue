@@ -53,7 +53,7 @@ export default {
       const cityId = this.currentCity.id
       console.log(cityId)
       const params = {
-        key: '939b0b0f4edc4af863e8666a3d60949c',
+        key: 'e1feeeceb6a85d644d666e8b0948727a',
         cityid: cityId
       }
       api.todayMovies(params)
@@ -71,7 +71,7 @@ export default {
         key: '4FKBZ-3CDWD-JAO4U-PWDGJ-QXHYQ-2MB24'
       }
     }).then(res => {
-      console.log(res)
+      console.log(res, '1111111111111111')
       this.setLocation(res.data.result)
     })
   },
